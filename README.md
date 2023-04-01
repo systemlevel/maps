@@ -1,8 +1,14 @@
-<style>
-table, th, td {
-  border: none;
-}
-</style>
+
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex;">
+    <div style="flex: 1; padding: 8px; text-align: left; border: 1px solid #ddd">Header 1</div>
+    <div style="flex: 1; padding: 8px; text-align: left; border: 1px solid #ddd">Header 2</div>
+  </div>
+  <div style="display: flex;">
+    <div style="flex: 1; padding: 8px; text-align: left; border: 1px solid #ddd">Cell 1</div>
+    <div style="flex: 1; padding: 8px; text-align: left; border: 1px solid #ddd">Cell 2</div>
+  </div>
+</div>
 # Mapbox Maps SDK for React Native
 
 <table style="border: none; border-width: 0px">
