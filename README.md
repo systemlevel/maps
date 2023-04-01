@@ -1,4 +1,8 @@
-
+<style>
+table, th, td {
+  border: none;
+}
+</style>
 # Mapbox Maps SDK for React Native
 
 <table style="border: none; border-width: 0px">
