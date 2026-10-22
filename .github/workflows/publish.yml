@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: '14.x'
+          node-version: 22.23.4
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies and build 🔧
         run: npm install --force

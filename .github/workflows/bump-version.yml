@@ -42,7 +42,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3.5.1
       with:
-        node-version: '16'
+        node-version: 22.23.4
 
     - name: Setup Git
       run: |
